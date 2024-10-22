@@ -1,0 +1,9 @@
+& when (@critical) {
+    body .amage-verification-content {
+        display: none;
+    }
+}
+
+& when not (@critical) {
+    @import "Amasty_AgeVerification::css/source/_module.less";
+}
