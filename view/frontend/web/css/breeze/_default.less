@@ -6,4 +6,14 @@
 
 & when not (@critical) {
     @import "Amasty_AgeVerification::css/source/_module.less";
+
+    @media @media-md-down {
+        .modal-popup.amage-verification-popup .modal-inner-wrap {
+            width: 120%;
+
+            .modal-footer button {
+                padding: 1rem 1rem;
+            }
+        }
+    }
 }
